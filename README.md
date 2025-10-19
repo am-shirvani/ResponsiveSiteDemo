@@ -33,5 +33,5 @@ To view the website properly, please open the files in the following order:
 ---
 
 ## 👨‍💻 Author
-**Amir Mohsen Shirvani**  
+**Amirmohsen Shirvani**  
 [GitHub Profile](https://github.com/am-shirvani)
