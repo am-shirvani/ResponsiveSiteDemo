@@ -8,7 +8,7 @@ img {
     background-color: lightgray !important;
 }
 body{
-    background-image: url("/pics/m1.png");
+    background-image: url("../pics/m1.png");
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -47,11 +47,11 @@ table tbody tr td.cell3{
 }
 @font-face {
     font-family:'CormorantGaramond' ;
-    src: url("/fonts/CormorantGaramond-Light.ttf");
+    src: url("../fonts/CormorantGaramond-Light.ttf");
 }
 @font-face {
     font-family:'FredokaOne' ;
-    src: url("fonts/FredokaOne-Regular.ttf");
+    src: url("../fonts/FredokaOne-Regular.ttf");
 }
 .para1{
     font-family:'CormorantGaramond' ;
@@ -85,4 +85,7 @@ div.cell2{
     font-family: sans-serif;
     text-decoration: none;
     letter-spacing: 2px;
+}
+.navbar{
+    z-index: 1000 !important;
 }

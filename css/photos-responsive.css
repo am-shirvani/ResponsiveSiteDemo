@@ -17,22 +17,22 @@ figure div.mainIMG{
     background-size: 100% 100%;
 }
 figure div.i1{
-    background-image: url("/pics/nightsea-348x348.jpg");
+    background-image: url("../pics/nightsea-348x348.jpg");
 }
 figure div.i2{
-    background-image: url("/pics/asset_923_transformation_2613_720x-600x600.webp");
+    background-image: url("../pics/asset_923_transformation_2613_720x-600x600.webp");
 }
 figure div.i3{
-    background-image: url("/pics/Galaxy-348x348.jpg");
+    background-image: url("../pics/Galaxy-348x348.jpg");
 }
 figure div.i1:hover{
-    background-image: url("/pics/Canvas-mockup-113424324-348x348.jpg");
+    background-image: url("../pics/Canvas-mockup-113424324-348x348.jpg");
 }
 figure div.i2:hover{
-    background-image: url("/pics/asset_996_transformation_2964_720x-uai-480x480.webp");
+    background-image: url("../pics/asset_996_transformation_2964_720x-uai-480x480.webp");
 }
 figure div.i3:hover{
-    background-image: url("/pics/mainpic-348x348.jpg");
+    background-image: url("../pics/mainpic-348x348.jpg");
 }
 figure figcaption *{
     font-family: sans-serif;

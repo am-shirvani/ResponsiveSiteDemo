@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'BalsamiqSans';
-    src: url("/fonts/BalsamiqSans-Regular.ttf");
+    src: url("../fonts/BalsamiqSans-Regular.ttf");
 }
 @font-face {
     font-family: 'CormorantGaramond';
-    src: url("/fonts/CormorantGaramond-Light.ttf");
+    src: url("../fonts/CormorantGaramond-Light.ttf");
 }
 @font-face {
     font-family: 'FredokaOne';
-    src: url("/fonts/FredokaOne-Regular.ttf");
+    src: url("../fonts/FredokaOne-Regular.ttf");
 }
 .pic {
     animation: picnone 0s linear 7s 1 normal forwards;

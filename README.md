@@ -10,12 +10,10 @@ A responsive version of my previous HTML & CSS demo website, rebuilt with **Boot
 ---
 
 ## 📁 Project Structure
-📦 ResponsiveSiteDemo
-┣ 📂 css
-┣ 📂 fonts
-┣ 📂 pics
-┣ 📂 webfonts
-┗ 📜 index.html
+To view the website properly, please open the files in the following order:
+1. `loading-responsive.html` — the loading screen
+2. `welcome-responsive.html` — welcome page
+3. `index.html` — website
 
 ---
 
