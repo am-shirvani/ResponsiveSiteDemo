@@ -1,0 +1,88 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    filter: grayscale(100%);
+}
+.lightgray{
+    background-color: lightgray !important;
+}
+body{
+    background-image: url("/pics/m1.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-attachment: fixed;
+}
+ul li{
+    width: 200px;
+}
+ul li a{
+    color: white !important;
+}
+ul li a span.icons{
+    font-size: 20px;
+    margin-right: 10px;
+}
+ul li a span.txtMenuTitle{
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+ul li a:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.content{
+    padding: 90px 30px 0px 30px;
+}
+.text-justify {
+    text-align: justify;
+}
+.tdd{
+    height: 300px;
+}
+table tbody tr td.cell3{
+    background-color: rgb(177, 176, 176);
+}
+@font-face {
+    font-family:'CormorantGaramond' ;
+    src: url("/fonts/CormorantGaramond-Light.ttf");
+}
+@font-face {
+    font-family:'FredokaOne' ;
+    src: url("fonts/FredokaOne-Regular.ttf");
+}
+.para1{
+    font-family:'CormorantGaramond' ;
+}
+.para2{
+    font-family:'FredokaOne' ;
+}
+.line{
+    height: 6px;
+    width: 250px;
+}
+.para3{
+    font-family:'CormorantGaramond' ;
+    color: rgb(177, 176, 176);
+}
+.lnk{
+    font-family: sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+div.cell2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ax{
+    width: 40px;
+}
+.icon{
+    text-decoration: none;
+}
+.lnk{
+    font-family: sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+}

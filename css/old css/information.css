@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    margin: auto;
+    margin-bottom: 10px;
+}
+table tr td.cell1{
+    background-color: black;
+    padding: 5px;
+    width: 100px;
+}
+table tr td.cell2{
+    width: 900px;
+    background-image: linear-gradient(to right, rgb(20, 20, 20), rgb(175, 170, 170));
+    padding: 20px;
+    color: white;
+}
+table tr td.line{
+    border-bottom: 2px solid white;
+}
+table tr td.cell2 h2{
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    width: 100px;
+    margin: 20px 550px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    transition:all 2s linear 0s;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.box{
+    height: 140px;
+    overflow: hidden;
+}
+img:hover{
+    width: 150%;
+    height: 150%;
+}

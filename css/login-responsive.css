@@ -1,0 +1,17 @@
+.lightgray{
+    background-color: lightgray !important;
+}
+form{
+    font-family: sans-serif;
+}
+form h1{
+    letter-spacing: 2px;
+}
+.lnk{
+    font-family: sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.manBG{
+    background-image: linear-gradient(135deg,rgb(36, 35, 43),rgb(124, 121, 141));
+}

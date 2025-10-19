@@ -1,0 +1,20 @@
+.lightgray{
+    background-color: lightgray !important;
+}
+span{
+    font-size: 5rem;
+}
+h3{
+    font-family:sans-serif;
+}
+button{
+    font-family: sans-serif;
+}
+p{
+    text-align: justify;
+}
+.lnk{
+    font-family: sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+}

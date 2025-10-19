@@ -1,0 +1,53 @@
+.lightgray{
+    background-color: lightgray !important;
+}
+.mainIMG{
+    filter: grayscale(100%);
+}
+figure{
+    width: 300px;
+    box-shadow: 1px 3px 10px black;
+    padding: 15px;
+    display: inline-block;
+}
+figure div.mainIMG{
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+figure div.i1{
+    background-image: url("/pics/nightsea-348x348.jpg");
+}
+figure div.i2{
+    background-image: url("/pics/asset_923_transformation_2613_720x-600x600.webp");
+}
+figure div.i3{
+    background-image: url("/pics/Galaxy-348x348.jpg");
+}
+figure div.i1:hover{
+    background-image: url("/pics/Canvas-mockup-113424324-348x348.jpg");
+}
+figure div.i2:hover{
+    background-image: url("/pics/asset_996_transformation_2964_720x-uai-480x480.webp");
+}
+figure div.i3:hover{
+    background-image: url("/pics/mainpic-348x348.jpg");
+}
+figure figcaption *{
+    font-family: sans-serif;
+}
+figure figcaption p{
+    text-align: justify;
+}
+figure figcaption a{
+    text-decoration: none;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lnk{
+    font-family: sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+}

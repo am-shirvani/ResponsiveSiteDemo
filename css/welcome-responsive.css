@@ -1,0 +1,20 @@
+body {
+    background-image: url("/pics/poster_85ef19ab-50ee-4b8d-8707-8c73f069843e.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.txtBox {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(3px);
+}
+.txtTitle {
+    text-shadow: 3px 3px black,3px -3px black,-3px 3px black,-3px -3px black;
+}
+a {
+    text-decoration: none !important;
+}
+button:hover {
+    background-color: gray !important;
+    box-shadow: 2px 4px 10px gray;
+}

@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'BalsamiqSans';
+    src: url("/fonts/BalsamiqSans-Regular.ttf");
+}
+@font-face {
+    font-family: 'CormorantGaramond';
+    src: url("/fonts/CormorantGaramond-Light.ttf");
+}
+@font-face {
+    font-family: 'FredokaOne';
+    src: url("/fonts/FredokaOne-Regular.ttf");
+}
+.pic {
+    animation: picnone 0s linear 7s 1 normal forwards;
+}
+@keyframes picnone {
+    to {
+        opacity: 0;
+    }
+}
+h3 {
+    font-family: 'FredokaOne';
+    letter-spacing: 2px;
+    opacity: 0;
+    animation: showTitle 2s linear 7s 1 normal forwards;
+}
+@keyframes showTitle {
+    to {
+        opacity: 1;
+    }
+}
+a {
+    text-decoration: none !important;
+    font-family: 'CormorantGaramond';
+    letter-spacing: 2px;
+}
+button {
+    opacity: 0;
+    animation: button 3s linear 7s 1 normal forwards;
+}
+button:hover {
+    box-shadow: 3px 4px 10px white, -3px -5px 10px white;
+}
+@keyframes button {
+    to {
+        opacity: 1;
+    }
+}
+.holder {
+    
+    font-family: 'BalsamiqSans';
+}
+span {
+    display: inline-block;
+    letter-spacing: 2px;
+    animation: loadingup 2s linear 0s 3 forwards;
+}
+span:nth-child(1) {
+    animation-delay: .1s;
+}
+span:nth-child(2) {
+    animation-delay: .2s;
+}
+span:nth-child(3) {
+    animation-delay: .3s;
+}
+span:nth-child(4) {
+    animation-delay: .4s;
+}
+span:nth-child(5) {
+    animation-delay: .5s;
+}
+span:nth-child(6) {
+    animation-delay: .6s;
+}
+span:nth-child(7) {
+    animation-delay: .7s;
+}
+span:nth-child(8) {
+    animation-delay: .8s;
+}
+span:nth-child(9) {
+    animation-delay: .9s;
+}
+span:nth-child(10) {
+    animation-delay: 1s;
+}
+@keyframes loadingup {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 0;
+    }
+}
+.outter {
+    height: 20px;
+    animation: outternone 0s linear 7s 1 normal forwards;
+}
+@keyframes outternone {
+    to {
+        opacity: 0;
+    }
+}
+.inner {
+    width: 0%;
+    animation: innercomplete 7s linear 0s 1 normal;
+}
+@keyframes innercomplete {
+    to {
+        width: 100%;
+    }
+}
